@@ -1,8 +1,10 @@
 #Two_Sum Solution LEETCODE by Rafael Perez
 #Very Inefficient XD. 
+
 #Runtime: 6844 ms, faster than 5.00% of Python online submissions for Two Sum.
 #Memory Usage: 12.5 MB, less than 84.59% of Python online submissions for Two Sum.#
 
+#Time Complexity O(n^2)
 class Solution(object):
     def twoSum(self, nums, target):
         for i in range(len(nums)):
